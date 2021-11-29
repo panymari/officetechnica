@@ -4,12 +4,12 @@ document.querySelector('.burger').addEventListener('click', function(){
 })
 
 
-var myIndex = 0;
+let myIndex = 0;
 carousel();
 
 function carousel() {
-  var i;
-  var x = document.getElementsByClassName("slid");
+  let i;
+  let x = document.getElementsByClassName("slid");
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
