@@ -8,9 +8,8 @@ let myIndex = 0;
 carousel();
 
 function carousel() {
-  let i;
   let x = document.getElementsByClassName("slid");
-  for (i = 0; i < x.length; i++) {
+  for (let i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
   myIndex++;
